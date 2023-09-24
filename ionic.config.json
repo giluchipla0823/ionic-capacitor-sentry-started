@@ -1,0 +1,7 @@
+{
+  "name": "ionic-capacitor-sentry-started",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
