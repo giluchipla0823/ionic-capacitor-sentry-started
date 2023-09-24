@@ -1,20 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Sentry Demo </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="ion-padding">
+  <ion-button expand="full" (click)="failFunction()"
+    >Call fail function</ion-button
+  >
+  <ion-button expand="full" (click)="throwJsError()">Throw JS error</ion-button>
+  <ion-button expand="full" (click)="throwJsErrorTwo()"
+    >Throw JS error 002</ion-button
+  >
+  <ion-button expand="full" (click)="captureSentryError()"
+    >Capture Sentry error</ion-button
+  >
+  <ion-button expand="full" (click)="errorWithScope()"
+    >Capture error with scope</ion-button
+  >
 </ion-content>
