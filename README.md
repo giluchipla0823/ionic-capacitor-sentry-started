@@ -179,3 +179,8 @@ release: `sentry-angular-app-${packageInfo.version}`
 ```
 
 9. Finalmente hay que añadir las plataformas android e ios en el proyecto
+
+
+# Enlaces de Interes
+https://docs.sentry.io/platforms/javascript/guides/capacitor/
+
